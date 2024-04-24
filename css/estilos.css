@@ -1,0 +1,250 @@
+/* Estilos general */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    background-color: #222831;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingreso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.ingreso a {
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.logo p {
+    font-family: "Marcellus SC", serif;
+    color: #222831;
+    font-size: 1.2em;
+    margin-left: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin-right: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #222831;
+    font-weight: 500;
+}
+
+ul a:hover {
+    border-bottom: 5px #76ABAE solid;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.ingreso a:hover {
+    font-weight: 600;
+    color: #76ABAE;
+    outline: 1px solid #222831;
+}
+
+.img-fondo {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor .contenedor-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #222831;
+    color: white;
+    align-items: center;
+    text-align: center;
+
+}
+
+.texto p {
+    color: #EEEEEE;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+h1 {
+    font-family: "Marcellus SC", serif;
+    font-size: 3em;
+    font-weight: 500;
+    color: #EEEEEE;
+    margin-top: 60px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #76ABAE;
+    color: #222831;
+    height: 80px;
+}
+
+.social a {
+    padding: 10px;
+}
+
+/* Estilos regiones */
+
+.contenedor-regiones {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+
+.cont-main-regiones {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    position: relative;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/jujuy.jpg);
+    background-size: 100% auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.titulo-region {
+    background-color: #76abae94;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.titulo-region p {
+    color: #EEEEEE;
+    font-size: 1.2em;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.titulo-region h1 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.recetas{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.cont-recetas{
+   padding-top: 60px;
+}
+
+.recetas > article {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.img-receta{
+    background-size: cover;
+    background-position: center;  
+    width: 100%;    
+}
+
+.empanadas .img-receta {
+    background-image: url(../imagenes/empanadas.jpg);  
+}
+
+.humita .img-receta{
+    background-image: url(../imagenes/humita-chala-1024x683.jpg);
+}
+
+.locro .img-receta {
+    background-image: url(../imagenes/locro.jpg);
+}
+
+.txt-receta {
+    position: relative;
+    padding: 10px;
+}
+
+.txt-receta button {
+    border-radius: 45px;
+    background-color: #76ABAE;
+    border: 1px #76ABAE solid;
+    color: #EEEEEE;
+    padding: 7px 12px;
+    float: right;
+}
+
+.txt-receta button:hover {
+    background-color: #039fa8;
+}
+
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+}
+
+.top-btn:hover {
+    opacity: 0.8;
+}
