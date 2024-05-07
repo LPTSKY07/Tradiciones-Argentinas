@@ -256,8 +256,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 1em;
-    padding-bottom: 1em;
-    border-top: 40px inset rgba(241, 217, 217, 0.5); 
+    padding-bottom: 5em;
     width: 100vw;
 
 }
@@ -320,5 +319,11 @@ footer {
     padding-top: 5em;
     padding-bottom: 5em;
     cursor: pointer;
+}
+
+.contenedor-titulo-carrusel {
+    border-top: 40px inset rgba(241, 217, 217, 0.5);
+    display: flex;
+    justify-content: center; 
 }
 /* Fin estilos carrusel */
