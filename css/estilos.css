@@ -154,6 +154,29 @@ footer {
     position: relative;
 }
 
+.norte .imagen{
+    background-image: url(../imagenes/jujuy.jpg);
+}
+
+.centro .imagen{
+    background-image: url(../imagenes/obelisco-noche-1500x610-luces-2022.jpg);
+    background-color: #76abaec4;
+}
+
+.cuyo .imagen{
+    background-image: url(../imagenes/viñedos\ -\ montañas.jpg);
+}
+
+.litoral .imagen{
+    background-image: url(../imagenes/litoral.jpg);
+}
+
+.patagonia .imagen {
+    background-image: url(../imagenes/patagonia.jpg);
+}
+
+
+
 .titulo-region {
     background-color: #76abae94;
     width: 100%;
@@ -209,6 +232,71 @@ footer {
 .locro .img-receta {
     background-image: url(../imagenes/locro.jpg);
 }
+
+.asado .img-receta{
+    background-image: url(../imagenes/fondo-asado2.jpg);
+}
+
+.milanesas .img-receta{
+    background-image: url(../imagenes/milanesas.jpg);
+}
+
+.pastas .img-receta{
+    background-image: url(../imagenes/pastas.jpg);
+}
+
+.pizza .img-receta{
+    background-image: url(../imagenes/pizza.jpeg);
+}
+
+.cabrito .img-receta{
+
+    background-image: url(../imagenes/piernas-de-cabrito-asadas-1.jpg);
+}
+
+.carbonada .img-receta{
+    background-image: url(../imagenes/carbonada-en-zapallo.jpg);
+}
+
+.cazuela_de_ave .img-receta{
+    background-image: url(../imagenes/cazuelaave.jpg);
+}
+
+.puchero .img-receta{
+    background-image: url(../imagenes/Receta-de-Puchero.webp);
+}
+
+.surubi .img-receta {
+    background-image: url(../imagenes/surubi.webp);
+}
+
+.sopa_paraguaya .img-receta {
+    background-image: url(../imagenes/sopa-paraguaya.jpg);
+}
+
+.chipa .img-receta {
+    background-image: url(../imagenes/chipa.jpg);
+}
+
+.cordero .img-receta {
+    background-image: url(../imagenes/cordero-paatag.jpg);
+}
+
+.trucha .img-receta {
+    background-image: url(../imagenes/trucha.webp);
+}
+
+.mariscos .img-receta {
+    background-image: url(../imagenes/mariscos.webp);
+}
+
+.ciervo .img-receta {
+    background-image: url(../imagenes/ciervo.webp);
+}
+
+
+
+
 
 .txt-receta {
     position: relative;
