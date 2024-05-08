@@ -415,3 +415,115 @@ footer {
     justify-content: center; 
 }
 /* Fin estilos carrusel */
+
+/* estilos del ingreso */  
+
+.ingreso-principal {
+    display: flex;
+    background-image: url(../imagenes/fondo-asado2.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.info-form {
+    background-color: #222831;
+    height: 390px;
+    width: 50px;
+    text-align: center; 
+    margin-left: 330px;
+    border-radius: 30px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+.login {
+    background-color: black;
+    width: 50px;
+    height: 390px;
+    text-align: center;
+    margin-right: 330px;
+    border-radius: 30px;
+}
+
+.info-form, .info-form-2, .login, .form-registro {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.boton-formulario {
+    padding: 10px 20px;
+    background-color: #76ABAE;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Raleway";
+    font-size: 1em;
+    transition: background-color 0.5s;
+}
+
+.input-form {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Raleway";
+}
+
+.link-form {
+    background-color: #76ABAE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Raleway";
+    transition: background-color 0.5s;
+}
+
+/* Datos del registro */
+
+.registro-principal {
+    display: flex;
+    background-image: url(imagenes/fondo-asado2.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-form-2 {
+    background-color: #222831;
+    height: 390px;
+    width: 50px;
+    text-align: center; 
+    margin-left: 200px;
+    border-radius: 30px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+.form-registro {
+    background-color: black;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-right: 200px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    
+}
+.link-form:hover, .boton-formulario:hover {
+    background-color: #222831;
+}
+
+/* fin estilos del ingreso */
