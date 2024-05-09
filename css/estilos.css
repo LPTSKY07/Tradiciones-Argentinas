@@ -58,6 +58,7 @@ nav ul {
     display: flex;
     padding: 0;
     margin-right: 30px;
+    font-size: 1em
 }
 
 nav ul li {
@@ -65,7 +66,7 @@ nav ul li {
     margin-right: 40px;
 }
 
-a {
+nav ul a {
     text-decoration: none;
     color: #222831;
     font-weight: 500;
@@ -124,9 +125,12 @@ footer {
     color: #222831;
     height: 80px;
 }
-
-.social a {
-    padding: 10px;
+.social img {
+    padding: 15px;
+    transition: transform 0.3s ease-in-out; 
+}
+.social img:hover {
+    transform: scale(1.1); 
 }
 
 /* Estilos regiones */
@@ -141,19 +145,6 @@ footer {
     grid-template-rows: auto 1fr;
     position: relative;
 }
-
-.imagen {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../imagenes/jujuy.jpg);
-    background-size: 100% auto;
-    height: 100vh;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
 .norte .imagen{
     background-image: url(../imagenes/jujuy.jpg);
 }
@@ -174,7 +165,16 @@ footer {
 .patagonia .imagen {
     background-image: url(../imagenes/patagonia.jpg);
 }
-
+.imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-size: 100% auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 
 .titulo-region {
@@ -209,10 +209,33 @@ footer {
    padding-top: 60px;
 }
 
+.recetas h3 {
+    color: #ddd;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.recetas h4 {
+    margin: 0;
+}
+
+
 .recetas > article {
     background-color: #EEEEEE;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recetas article:hover {
+    box-shadow: 0 0 20px rgba(113, 112, 112, 0.395);
+    transform: scale(1.02);
+}
+
+article .img-receta{
+    background-size: cover;
+    background-position: center;  
+    width: 100%;    
 }
 
 .img-receta{
@@ -250,7 +273,6 @@ footer {
 }
 
 .cabrito .img-receta{
-
     background-image: url(../imagenes/piernas-de-cabrito-asadas-1.jpg);
 }
 
@@ -294,16 +316,12 @@ footer {
     background-image: url(../imagenes/ciervo.webp);
 }
 
-
-
-
-
 .txt-receta {
     position: relative;
     padding: 10px;
 }
 
-.txt-receta button {
+button {
     border-radius: 45px;
     background-color: #76ABAE;
     border: 1px #76ABAE solid;
@@ -312,10 +330,13 @@ footer {
     float: right;
 }
 
-.txt-receta button:hover {
+button:hover {
     background-color: #039fa8;
 }
-
+.recetas-preparacion button {
+    display: block; 
+    margin: 20px auto;
+}
 .top-btn {
     position: fixed;
     bottom: 20px;
@@ -527,3 +548,145 @@ footer {
 }
 
 /* fin estilos del ingreso */
+
+/*Estilos receta.html*/
+
+.recetas-main{
+    display: block;
+}
+
+.recetas-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    margin: 60px auto 40px auto;
+    height: 82vh;
+}
+
+.recetas-imagen {
+    grid-column: 1; 
+    grid-row: 1 / span 2;
+}
+
+.recetas-preparacion{
+    grid-column: 2; 
+    grid-row: 1 / span 2; 
+    background-color: #EEEEEE;
+    padding: 10px;
+    position: relative;
+}
+
+.recetas-preparacion button {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.recetas-preparacion ol, ul{
+    font-size: 0.8em;
+    line-height: 1.7;
+    margin: 5px 0 0 0;
+}
+
+.recetas-contenedor h3, h4 {
+    margin: 10px 0 0 25px;
+    font-weight: 600;
+}
+
+.recetas-contenedor h3 {
+    margin: 10px 0;
+}
+
+.recetas p {
+    line-height: 1.5;
+}
+
+.recetas-ingredientes {
+    grid-column: 1;
+    grid-row: 2;
+    background-color:#EEEEEE;
+}
+
+.recetas-ingredientes ul li{
+    line-height: 1.5;
+}
+
+.recetas-contenedor > div:first-child {
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.recetas-imagen-empanadas {
+    background-image: url(../imagenes/empanadas.jpg);    
+}
+
+.recetas-imagen-humita {
+    background-image: url(../imagenes/humita-chala-1024x683.jpg);
+}
+
+.recetas-imagen-locro {
+    background-image: url(../imagenes/locro.jpg);
+}
+
+.recetas-imagen-asado {
+    background-image: url(../imagenes/fondo-asado.png);
+}
+
+.recetas-imagen-milanesas{
+    background-image: url(../imagenes/milanesas.jpg);
+}
+
+.recetas-imagen-pastas {
+    background-image: url(../imagenes/pastas.jpg);
+}
+
+.recetas-imagen-pizza {
+    background-image: url(../imagenes/pizza.jpeg);
+}
+
+.recetas-imagen-cabrito {
+    background-image: url(../imagenes/piernas-de-cabrito-asadas-1.jpg);
+}
+
+.recetas-imagen-carbonada {
+    background-image: url(../imagenes/carbonada-en-zapallo.jpg);
+}
+
+.recetas-imagen-cazuela {
+    background-image: url(../imagenes/cazuelaave.jpg);
+}
+
+.recetas-imagen-puchero {
+    background-image: url(../imagenes/Receta-de-Puchero.webp);
+}
+
+.recetas-imagen-surubi {
+    background-image: url(../imagenes/surubi.webp);
+}
+
+.recetas-imagen-sopa {
+    background-image: url(../imagenes/sopa-paraguaya.jpg);
+}
+
+.recetas-imagen-chipa {
+    background-image: url(../imagenes/chipa.jpg);
+}
+
+.recetas-imagen-cordero {
+    background-image: url(../imagenes/cordero-paatag.jpg);
+}
+
+.recetas-imagen-trucha {
+    background-image: url(../imagenes/trucha.webp);
+}
+
+.recetas-imagen-mariscos {
+    background-image: url(../imagenes/mariscos.webp);
+}
+
+.recetas-imagen-ciervo {
+    background-image: url(../imagenes/ciervo.webp);
+}
