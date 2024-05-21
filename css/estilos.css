@@ -835,3 +835,70 @@ h1 {
 .iframe-maps-2 {
     width: 400px;
 }
+
+.contenedor-contacto {
+        display: flex;
+        background-image: url(../imagenes/fondo-principal.jpg);
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+.form-contacto {
+        background-color: #222831;
+        height: 320px;
+        width: 50px;
+        text-align: center; 
+        margin-left: 200px;
+        border-radius: 30px;
+        padding: 0px 30px;
+        box-sizing: border-box;
+}
+
+.form-contacto-con-js {
+    background-color: black;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-right: 200px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.contenedor-contacto, .form-contacto, .form-contacto-con-js {
+    flex: 1;
+    margin-top: 30px;
+}
+
+.alertas {
+    width: 23em;
+    height: 13em;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+.input-form {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 10px 0;
+}
+
+.boton-formulario-contacto {
+    padding: 10px 20px;
+    background-color: #76ABAE;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Raleway";
+    font-size: 1em;
+    transition: background-color 0.5s;
+}
+
