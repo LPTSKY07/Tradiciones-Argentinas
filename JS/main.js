@@ -26,7 +26,7 @@ let imagenes = [
     {
         "url": "./imagenes/carrusel/trucha-patagonia.jpg",
         "texto": "Patagonia",
-        "descripcion": "La gastronomía tradicional de la región patagónica, marcada por la influencia alemana y suiza, es una de las más variadas del país. Podemos encontrar truchas, mariscos, ciervos, jabalíes, cordero patagónico y centolla que, entre otros, son los platos mas destacados de esta región",
+        "descripcion": "La gastronomía tradicional de la región patagónica, marcada por la influencia alemana y suiza, es una de las más variadas del país. Podemos encontrar truchas, mariscos, ciervos, jabalíes, cordero patagónico y centolla que, entre otros, son los platos mas destacados de esta región.",
         "link":"./patagonia.html"
     }
 ];
