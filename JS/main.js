@@ -2,31 +2,31 @@ let imagenes = [
     { 
         "url": "./imagenes/carrusel/choripan-bs-as.jpg",
         "texto": "Centro",
-        "descripcion": "Centro Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem earum accusantium maiores dolore libero mollitia voluptates quia id magnam laudantium, doloribus quidem voluptate provident possimus, eius consequuntur iusto harum?",
+        "descripcion": "La cultura gastronómica de la región Centro es una de las mas influenciadas por la inmigración italiana y española. Sus principales platos son el asado, las pastas, milanesas, pizzas y guisos. La ciudad de Buenos Aires es muy conocida por sus "bodegones" donde suelen encontrarse platos abundantes al estilo casero.",
         "link":"./centro.html"
     },
     {
         "url": "./imagenes/carrusel/chipa-litoral.jpg",
         "texto": "Litoral",
-        "descripcion": "Litoral Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem earum accusantium maiores dolore libero mollitia voluptates quia id magnam laudantium, doloribus quidem voluptate provident possimus, eius consequuntur iusto harum?",
+        "descripcion": "La gastronomía tradicional de la región del Litoral argentino es el resultado de la combinación de varias culturas. Podemos encontrar peces de rio, como el surubí y el bagre y platos preparados con harina de mandioca como locros y el tradicional chipa proveniente de la cultura guaraní.",
         "link":"./litoral.html"        
     },
     {
         "url": "./imagenes/carrusel/locro-norte.jpg",
         "texto": "Norte",
-        "descripcion": "Norte Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem earum accusantium maiores dolore libero mollitia voluptates quia id magnam laudantium, doloribus quidem voluptate provident possimus, eius consequuntur iusto harum?",
+        "descripcion": "La gastronomía tradicional de la región norte argentina conserva su influencia aborigen, en platos formados por una gran diversidad de productos que mantienen vivos todos los secretos. Los principales ingredientes de estos platos son: maíz, papas, zapallos, quinoa y carnes de llama, vaca, cerdo y gallina.",
         "link":"./norte.html"
     },
     {
         "url": "./imagenes/carrusel/chivito-mendocino.jpg",
         "texto": "Cuyo",
-        "descripcion": "Cuyo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem earum accusantium maiores dolore libero mollitia voluptates quia id magnam laudantium, doloribus quidem voluptate provident possimus, eius consequuntur iusto harum?",
+        "descripcion": "La gastronomía tradicional de la región de cuyo se basa, en el puchero, los caldos, el locro, la cazuela de gallina, la humita, la carne a la bolsa, los embutidos y fiambres, las tortillas y la carbonada, junto con las empanadas son parte del intercambio entre culturas que hoy forman parte de la dieta argentina.",
         "link":"./cuyo.html"
     },
     {
         "url": "./imagenes/carrusel/trucha-patagonia.jpg",
         "texto": "Patagonia",
-        "descripcion": "Patagonia Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem earum accusantium maiores dolore libero mollitia voluptates quia id magnam laudantium, doloribus quidem voluptate provident possimus, eius consequuntur iusto harum?",
+        "descripcion": "La gastronomía tradicional de la región patagónica, marcada por la influencia alemana y suiza, es una de las más variadas del país. Podemos encontrar truchas, mariscos, ciervos, jabalíes, cordero patagónico y centolla que, entre otros, son los platos mas destacados de esta región",
         "link":"./patagonia.html"
     }
 ];
