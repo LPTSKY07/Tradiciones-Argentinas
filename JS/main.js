@@ -43,3 +43,48 @@ setInterval(()=>{
     imagenSlider.innerHTML = `<img src="${imagenes[index].url}" alt="imagen fondo de region" style="animation-duration: 2500ms; animation-name: slidein;">`;
     index++;
 }, 4500)
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('formulario-de-contacto').addEventListener('submit', function(event) {
+         event.preventDefault();
+    
+            let isValid = true;
+            const alertas = document.getElementById('alertas');
+            alertas.innerHTML = '';
+    
+            const nombre = document.getElementById('nombre-js');
+            if (nombre.value.trim() === '') {
+                isValid = false;
+                alertas.innerHTML += '<p>Por favor, ingresa tu nombre.</p>';
+            }
+    
+            const email = document.getElementById('email-js');
+            if (email.value.trim() === '') {
+                isValid = false;
+                alertas.innerHTML += '<p>Por favor, ingresa tu correo electrónico.</p>';
+            }
+    
+            const asunto = document.getElementById('asunto-js');
+            if (asunto.value === '') {
+                isValid = false;
+                alertas.innerHTML += '<p>Por favor, selecciona un asunto.</p>';
+            }
+    
+            const mensaje = document.getElementById('mensaje-js');
+            if (mensaje.value.trim() === '') {
+                isValid = false;
+                alertas.innerHTML += '<p>Por favor, ingresa tu mensaje.</p>';
+            }
+    
+            const acepto = document.getElementById('acepto-js');
+            if (!acepto.checked) {
+                isValid = false;
+                alertas.innerHTML += '<p>Debes aceptar los términos y condiciones.</p>';
+            }
+    
+            if (isValid) {
+                alert('Formulario enviado correctamente.');
+            }
+        });
+    });
