@@ -2,7 +2,7 @@ let imagenes = [
     { 
         "url": "./imagenes/carrusel/choripan-bs-as.jpg",
         "texto": "Centro",
-        "descripcion": "La cultura gastronómica de la región Centro es una de las mas influenciadas por la inmigración italiana y española. Sus principales platos son el asado, las pastas, milanesas, pizzas y guisos. La ciudad de Buenos Aires es muy conocida por sus "bodegones" donde suelen encontrarse platos abundantes al estilo casero.",
+        "descripcion": "La cultura gastronómica de la región Centro es una de las mas influenciadas por la inmigración italiana y española. Sus principales platos son el asado, las pastas, milanesas, pizzas y guisos. La ciudad de Buenos Aires es muy conocida por sus bodegones, donde suelen encontrarse platos abundantes al estilo casero.",
         "link":"./centro.html"
     },
     {
