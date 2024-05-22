@@ -849,14 +849,14 @@ h1 {
     }
 
 .form-contacto {
-        background-color: #222831;
-        height: 320px;
-        width: 50px;
-        text-align: center; 
-        margin-left: 200px;
-        border-radius: 30px;
-        padding: 0px 30px;
-        box-sizing: border-box;
+    background-color: #222831;
+    height: 390px;
+    width: 50px;
+    text-align: center; 
+    margin-left: 330px;
+    border-radius: 30px;
+    padding: 0px 30px;
+    box-sizing: border-box;
 }
 
 .form-contacto-con-js {
@@ -867,7 +867,7 @@ h1 {
     margin-right: 200px;
     border-radius: 30px;
     padding: 10px 30px;
-}
+} 
 
 .contenedor-contacto, .form-contacto, .form-contacto-con-js {
     flex: 1;
@@ -880,15 +880,16 @@ h1 {
     text-align: center;
     margin: auto;
     padding-top: 20px;
-    color: red;
+    color: #FF0000;
     font-weight: bold;
     background-color: black;
 }
 .input-form {
-    width: 100%;
-    padding: 8px;
-    margin: 4px 0 10px 0;
-}
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Raleway";
+    }
 
 .boton-formulario-contacto {
     padding: 10px 20px;
