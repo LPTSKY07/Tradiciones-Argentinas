@@ -123,6 +123,8 @@ footer {
     background-color: #76ABAE;
     color: #222831;
     height: 80px;
+
+    position: relative;
 }
 .social img {
     padding: 15px;
@@ -823,8 +825,9 @@ h1 {
         background-repeat: no-repeat;
         color: white;
         align-items: center;
-        height: 100vh;
+        /* height: 100vh; */
         width: 100vw;
+        overflow: hidden;
     }
 
 .form-contacto {
@@ -882,3 +885,9 @@ h1 {
     transition: background-color 0.5s;
 }
 
+
+.alertas {
+    background: none;
+    position: absolute;
+    height: 1.5rem;
+}
