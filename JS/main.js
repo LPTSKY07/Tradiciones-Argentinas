@@ -54,36 +54,45 @@ document.addEventListener('DOMContentLoaded', function() {
             alertas.innerHTML = '';
     
             const nombre = document.getElementById('nombre-js');
+            const email = document.getElementById('email-js');
+            const asunto = document.getElementById('asunto-js');
+            const mensaje = document.getElementById('mensaje-js');
+            const acepto = document.getElementById('acepto-js');
+
+            const parrafo = document.createElement("p");
+
+
             if (nombre.value.trim() === '') {
                 isValid = false;
-                alertas.innerHTML += '<p>Por favor, ingresa tu nombre.</p>';
+                alertas.style.backgroundColor="black";
+                alertas.innerHTML = "Por favor, ingresa tu nombre."
             }
-    
-            const email = document.getElementById('email-js');
-            if (email.value.trim() === '') {
+
+            else if (email.value.trim() === '') {
                 isValid = false;
-                alertas.innerHTML += '<p>Por favor, ingresa tu correo electrónico.</p>';
-            }
-    
-            const asunto = document.getElementById('asunto-js');
-            if (asunto.value === '') {
+                alertas.style.backgroundColor="black";
+                alertas.innerHTML = "Por favor, ingresa tu correo electrónico."
+            } 
+            
+            else if (asunto.value === '') {
                 isValid = false;
-                alertas.innerHTML += '<p>Por favor, selecciona un asunto.</p>';
-            }
-    
-            const mensaje = document.getElementById('mensaje-js');
-            if (mensaje.value.trim() === '') {
+                alertas.style.backgroundColor="black";
+                alertas.innerHTML = "Por favor, selecciona un asunto."
+            } 
+            
+            else if (mensaje.value.trim() === '') {
                 isValid = false;
-                alertas.innerHTML += '<p>Por favor, ingresa tu mensaje.</p>';
-            }
-    
-            const acepto = document.getElementById('acepto-js');
-            if (!acepto.checked) {
+                alertas.style.backgroundColor="black";
+                alertas.innerHTML = "Por favor, ingresa tu mensaje."
+            } 
+            
+            else if (!acepto.checked) {
                 isValid = false;
-                alertas.innerHTML += '<p>Debes aceptar los términos y condiciones.</p>';
-            }
-    
-            if (isValid) {
+                alertas.style.backgroundColor="black";
+                alertas.innerHTML = "Debes aceptar los términos y condiciones."
+            } 
+            
+            else if (isValid) {
                 alert('Formulario enviado correctamente.');
             }
         });
