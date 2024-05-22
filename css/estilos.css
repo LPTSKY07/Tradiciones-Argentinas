@@ -1,5 +1,3 @@
-/* Estilos general */
-
 body {
     margin: 0;
     padding: 0;
@@ -359,7 +357,6 @@ button:hover {
     opacity: 0.8;
 }
 
-/*Titulo de pagina*/
 .titulo-main {
     border-bottom: grey solid 8px;
     color: white;
@@ -367,8 +364,6 @@ button:hover {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-/* Estilos slider */
 
 .slider {
     align-items: center;
@@ -421,9 +416,6 @@ h1 {
     height: 70vh;
     transition: 2000ms;
 }
-
-/* Fin estilo slider */
-/* estilos del ingreso */  
 
 .ingreso-principal {
     display: flex;
@@ -536,9 +528,6 @@ h1 {
     margin-right: 0em;
     margin-left: 6em;
 }
-
-/* Datos del registro */
-
 .registro-principal {
     display: flex;
     background-image: url(imagenes/fondo-asado2.jpg);
@@ -578,11 +567,6 @@ h1 {
 .boton-formulario-2:hover, .link-form-1:hover {
     background-color: #222831;
 }
-
-/* fin estilos del ingreso */
-
-/*Estilos receta.html*/
-
 .recetas-main{
     display: block;
 }
@@ -722,9 +706,6 @@ h1 {
 .recetas-imagen-ciervo {
     background-image: url(../imagenes/ciervo.webp);
 }
-
-/* Estilos de recomendaciones */
-
 .titulo-recomendaciones {
     background-color:#76ABAE;
     padding: 20px;
@@ -748,8 +729,6 @@ h1 {
     margin-left: 3em;
     margin-right: 3em;
 }
-
-/* estilos acordeon */
 
 .contenedor-acordeon{
     width: 100%;
